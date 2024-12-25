@@ -1,0 +1,185 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Background color for the body */
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #007aff;
+    padding: 15px 0;
+    gap: 20px;
+  }
+  
+  .navbar button {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #007aff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .navbar button:hover {
+    background-color: #007aff;
+    color: white;
+    transform: translateY(-2px);
+  }
+  
+  /* Introduction Section */
+  .intro {
+    text-align: center;
+    background-color: #007aff;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  .name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;
+    background-color: #ffffff;
+  }
+  
+  .about-image img {
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-text p {
+    font-weight: bold;
+    font-size-adjust: calc(.8);
+    font-style:normal;
+    color: #555;
+    max-width: 600px;
+    text-align: justify;
+  }
+  
+  /* Skills Section */
+  .skills {
+    background-color: #f0f8ff;
+    padding: 40px 20px;
+    text-align: center;
+    color: #007aff;
+  }
+  
+  .skills h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .skills-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .skills-buttons button {
+    background-color: #ffffff;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    min-width: 100px;
+    min-height: 100px;
+  }
+  
+  .skills-buttons button:hover {
+    background-color: #005bb5;
+    transform: translateY(-7px);
+    /* transition: 1s; */
+  }
+  
+  /* Education Section */
+  .education {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #007aff;
+  }
+  
+  .education h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .content ul {
+    list-style-type: square;
+    margin-top: 10px;
+  }
+  
+  .content ul li {
+    font-size: 1rem;
+    color: #2626f7;
+    margin-left: 20px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 40px 20px;
+    background-color: #f0f8ff;
+    text-align: center;
+    color: #007aff;
+  }
+  
+  .contact h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .contact a {
+    color: #007aff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .contact a:hover {
+    color: #f0f8ff;
+  }
+  .end{
+    text-align: center;
+    background-color: #007aff;
+    color: white;
+    padding: 50px 0;
+  }
+  
+  
